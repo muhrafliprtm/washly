@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".SettingActivity">
+
+    <ImageButton
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/pintukeluar" />
+
+    <ImageView
+        android:id="@+id/fotouser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
+        android:layout_marginTop="155dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tingkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fotouser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25dp"
+        android:text="Admin" />
+
+    <TextView
+        android:id="@+id/nameuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tingkat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25dp"
+        android:text="muhra@mail.id" />
+
+    <Button
+        android:layout_width="134dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="edit"
+        android:textSize="20dp"
+        />
+</RelativeLayout>

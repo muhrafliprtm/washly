@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPaket"
+    android:background="#FFC107"
+    >
+
+    <ImageButton
+        android:layout_width="81dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Outlet"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        />
+
+    <ImageButton
+        android:id="@+id/fotooutlet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/camera2"
+        android:layout_marginTop="130dp"
+        />
+
+    <TextView
+        android:id="@+id/namaoutlet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cabang Wash.Ly"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fotooutlet"
+        />
+
+    <TextView
+        android:id="@+id/alamatoutlet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jl. Ambon No. 21"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/namaoutlet"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/notlpoutlet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="081221343456"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/alamatoutlet"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:layout_width="164dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/notlpoutlet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Edit"
+        android:textSize="24dp" />
+
+</RelativeLayout>

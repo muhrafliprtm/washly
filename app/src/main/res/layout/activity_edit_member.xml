@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity"
+    android:background="#FFC107"
+    >
+
+    <ImageView
+        android:id="@+id/fotomember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/arrow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambil Foto"
+        android:textSize="28dp"
+        android:layout_below="@id/fotomember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+
+        />
+
+    <TextView
+        android:id="@+id/editnamamember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Member"
+        android:textSize="26dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editnamamember"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/editalamatmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="26dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editalamatmember"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/notlpmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor telepon"
+        android:textSize="26dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notlpmember"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/notlpmember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Selesai"
+        android:textSize="24dp" />
+
+
+</RelativeLayout>

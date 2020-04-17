@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPaket"
+    android:background="#FFC107"
+    >
+
+    <ImageButton
+        android:layout_width="81dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Member"
+        android:textSize="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        />
+
+    <ImageButton
+        android:id="@+id/fotomember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/camera2"
+        android:layout_marginTop="130dp"
+        />
+
+    <TextView
+        android:id="@+id/namamember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ujang"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fotomember"
+        />
+
+    <TextView
+        android:id="@+id/alamatmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jl. Kliningan No. 21"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/namamember"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/notlpmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="081221213456"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/alamatmember"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:layout_width="164dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/notlpmember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Edit"
+        android:textSize="24dp" />
+
+</RelativeLayout>

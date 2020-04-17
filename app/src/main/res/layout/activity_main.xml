@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFC107">
+
+
+    <TextView
+        android:id="@+id/judul_main"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Wash.Ly"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/list" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Transaksi"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="116dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/discount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="499dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Paket Cucian"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="254dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/member" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Member"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:layout_width="132dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="390dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/outlet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="499dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Outlet"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="344dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/user1" />
+
+</RelativeLayout>
